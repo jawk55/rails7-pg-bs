@@ -1,0 +1,2174 @@
+Started GET "/" for 127.0.0.1 at 2022-09-22 17:30:14 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 14.3ms | Allocations: 5029)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 16.0ms | Allocations: 5871)
+  Rendered layout layouts/application.html.erb (Duration: 297.5ms | Allocations: 98309)
+Completed 200 OK in 332ms (Views: 302.3ms | ActiveRecord: 5.0ms | Allocations: 121091)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-22 17:32:06 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 7.5ms | Allocations: 1386)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 11.5ms | Allocations: 1724)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 4502)
+Completed 200 OK in 29ms (Views: 26.6ms | ActiveRecord: 0.0ms | Allocations: 5696)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-22 17:32:53 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 14.7ms | Allocations: 3450)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 16.0ms | Allocations: 4187)
+  Rendered layout layouts/application.html.erb (Duration: 61.8ms | Allocations: 25636)
+Completed 200 OK in 89ms (Views: 64.7ms | ActiveRecord: 4.5ms | Allocations: 47065)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-22 17:34:07 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 5.0ms | Allocations: 1386)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1724)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 4515)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 5709)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-22 17:34:33 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 3.0ms | Allocations: 1373)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1708)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 4488)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 5649)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-22 17:34:45 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 3.5ms | Allocations: 1373)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1708)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 4488)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 5649)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-22 17:34:57 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 2.2ms | Allocations: 1361)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1696)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 4469)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 5616)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-22 17:35:23 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (1.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1438)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 4239)
+Completed 200 OK in 15ms (Views: 10.6ms | ActiveRecord: 1.4ms | Allocations: 6220)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-22 17:35:25 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 851)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 3199)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.6ms | Allocations: 3526)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 17:35:27 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 5.9ms | Allocations: 1294)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 9.1ms | Allocations: 1589)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 3909)
+Completed 200 OK in 36ms (Views: 19.3ms | ActiveRecord: 8.7ms | Allocations: 5650)
+
+
+Started POST "/reservations" for 127.0.0.1 at 2022-09-22 17:35:37 -0300
+Processing by ReservationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "reservation"=>{"detalles"=>"mi primera reserva es para el dia lunes 19 hrs"}, "commit"=>"Create Reservation"}
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/reservations_controller.rb:27:in `block in create'
+  [1m[36mReservation Create (2.1ms)[0m  [1m[32mINSERT INTO "reservations" ("detalles", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["detalles", "mi primera reserva es para el dia lunes 19 hrs"], ["created_at", "2022-09-22 20:35:37.873208"], ["updated_at", "2022-09-22 20:35:37.873208"]]
+  ↳ app/controllers/reservations_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/reservations_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/reservations/1
+Completed 302 Found in 38ms (ActiveRecord: 4.5ms | Allocations: 3885)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:35:37 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.9ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 1.3ms | Allocations: 213)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 8.0ms | Allocations: 1705)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 4132)
+Completed 200 OK in 25ms (Views: 13.6ms | ActiveRecord: 1.6ms | Allocations: 7525)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:35:40 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1081)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 3417)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.4ms | Allocations: 3768)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:35:44 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 18)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 3.3ms | Allocations: 660)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 2972)
+Completed 200 OK in 15ms (Views: 11.2ms | ActiveRecord: 0.7ms | Allocations: 3789)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:36:10 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 1.2ms | Allocations: 165)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1256)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 4015)
+Completed 200 OK in 24ms (Views: 18.7ms | ActiveRecord: 0.8ms | Allocations: 5643)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:36:13 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (1.0ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 642)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2954)
+Completed 200 OK in 11ms (Views: 7.4ms | ActiveRecord: 1.0ms | Allocations: 3831)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:36:14 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (1.0ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 18)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 1228)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 3561)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 1.0ms | Allocations: 3946)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:37:13 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.5ms | Allocations: 165)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1626)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 4425)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.4ms | Allocations: 5561)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:37:35 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 5.0ms | Allocations: 165)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 1631)
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 4433)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.6ms | Allocations: 5591)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-22 17:37:39 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 18)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 931)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 3277)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.8ms | Allocations: 3604)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-22 17:38:11 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 2.4ms | Allocations: 165)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 1638)
+  Rendered layout layouts/application.html.erb (Duration: 36.3ms | Allocations: 4487)
+Completed 200 OK in 42ms (Views: 38.1ms | ActiveRecord: 0.6ms | Allocations: 5623)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 17:38:13 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 26.1ms | Allocations: 1255)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 27.6ms | Allocations: 1545)
+  Rendered layout layouts/application.html.erb (Duration: 55.6ms | Allocations: 3894)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.0ms | Allocations: 4280)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 17:38:14 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 6.3ms | Allocations: 855)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 942)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 3289)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 3596)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 17:38:14 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 3.3ms | Allocations: 843)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 930)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3279)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 3587)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 17:38:15 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 3.0ms | Allocations: 831)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 918)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3278)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 3585)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 17:38:50 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 5.0ms | Allocations: 1376)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 8.8ms | Allocations: 1716)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 4542)
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 0.0ms | Allocations: 5668)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 17:39:07 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 3.0ms | Allocations: 1370)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1705)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 10296)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 11436)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"reservations"}, missing required keys: [:id]
+Did you mean?  reservation_url):
+    20:       <ul class="navbar-nav mr-auto">
+    21:         <li class="nav-item active">
+    22:           <!-- a class="nav-link" href=""></a -->
+    23:           <%= link_to "Todas", reservation_path %>
+    24: 
+    25:         </li>
+    26:         <li class="nav-item">
+  
+app/views/layouts/application.html.erb:23
+Started GET "/" for 127.0.0.1 at 2022-09-22 17:39:17 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 1.3ms | Allocations: 165)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 10.7ms | Allocations: 1629)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 4541)
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.8ms | Allocations: 5698)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:39:18 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 943)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 3330)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.8ms | Allocations: 3657)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:39:19 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 946)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 3333)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.7ms | Allocations: 3639)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:39:19 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 18)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 937)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 3324)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.8ms | Allocations: 3630)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:39:20 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 952)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3339)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.4ms | Allocations: 3645)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 17:39:20 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 3.5ms | Allocations: 1241)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1530)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3904)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 4270)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:39:22 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (1.1ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 18)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 943)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 3330)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 1.1ms | Allocations: 3636)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:39:34 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.9ms | Allocations: 165)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1637)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 4528)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.6ms | Allocations: 5664)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:39:37 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 946)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3333)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.7ms | Allocations: 3660)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:39:38 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 946)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 3333)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.6ms | Allocations: 3639)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:39:38 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 934)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3321)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.4ms | Allocations: 3627)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 17:39:39 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 5.4ms | Allocations: 1262)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1551)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 3925)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 4291)
+
+
+Started POST "/reservations" for 127.0.0.1 at 2022-09-22 17:39:46 -0300
+Processing by ReservationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "reservation"=>{"detalles"=>"otra para el martes a las 14:00"}, "commit"=>"Create Reservation"}
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/reservations_controller.rb:27:in `block in create'
+  [1m[36mReservation Create (0.6ms)[0m  [1m[32mINSERT INTO "reservations" ("detalles", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["detalles", "otra para el martes a las 14:00"], ["created_at", "2022-09-22 20:39:46.056365"], ["updated_at", "2022-09-22 20:39:46.056365"]]
+  ↳ app/controllers/reservations_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/reservations_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/reservations/2
+Completed 302 Found in 13ms (ActiveRecord: 2.5ms | Allocations: 2472)
+
+
+Started GET "/reservations/2" for 127.0.0.1 at 2022-09-22 17:39:46 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (1.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 3.6ms | Allocations: 870)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3236)
+Completed 200 OK in 15ms (Views: 10.1ms | ActiveRecord: 1.2ms | Allocations: 4115)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:39:47 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 18)
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 13.1ms | Allocations: 1079)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 3482)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.7ms | Allocations: 3789)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:40:11 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 1.7ms | Allocations: 165)
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 19.9ms | Allocations: 1763)
+  Rendered layout layouts/application.html.erb (Duration: 46.6ms | Allocations: 4668)
+Completed 200 OK in 53ms (Views: 49.6ms | ActiveRecord: 0.8ms | Allocations: 5804)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:40:35 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.9ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 10.4ms | Allocations: 298)
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 19.7ms | Allocations: 1747)
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | Allocations: 4638)
+Completed 200 OK in 36ms (Views: 32.6ms | ActiveRecord: 0.9ms | Allocations: 5796)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:40:50 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 7.3ms | Allocations: 298)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 14.1ms | Allocations: 1759)
+  Rendered layout layouts/application.html.erb (Duration: 26.7ms | Allocations: 4649)
+Completed 200 OK in 44ms (Views: 41.7ms | ActiveRecord: 0.7ms | Allocations: 5806)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:51 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.7ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 4.7ms | Allocations: 867)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 3233)
+Completed 200 OK in 19ms (Views: 13.8ms | ActiveRecord: 0.7ms | Allocations: 4145)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:54 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 1.3ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 4.8ms | Allocations: 678)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 3044)
+Completed 200 OK in 20ms (Views: 14.1ms | ActiveRecord: 0.8ms | Allocations: 3833)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:54 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.5ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 2.6ms | Allocations: 681)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 3047)
+Completed 200 OK in 15ms (Views: 10.4ms | ActiveRecord: 0.6ms | Allocations: 3836)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:54 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 663)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 3029)
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.4ms | Allocations: 3817)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:55 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 675)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3041)
+Completed 200 OK in 12ms (Views: 8.6ms | ActiveRecord: 0.5ms | Allocations: 3829)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:55 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 2.5ms | Allocations: 672)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3038)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.3ms | Allocations: 3826)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:55 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 684)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 3050)
+Completed 200 OK in 9ms (Views: 6.2ms | ActiveRecord: 0.4ms | Allocations: 3838)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:55 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 678)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 3044)
+Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 0.4ms | Allocations: 3832)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:55 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 10.9ms | Allocations: 684)
+  Rendered layout layouts/application.html.erb (Duration: 39.4ms | Allocations: 3050)
+Completed 200 OK in 52ms (Views: 40.1ms | ActiveRecord: 0.3ms | Allocations: 3839)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:56 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 11.1ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 12.7ms | Allocations: 663)
+  Rendered layout layouts/application.html.erb (Duration: 57.5ms | Allocations: 3045)
+Completed 200 OK in 65ms (Views: 62.7ms | ActiveRecord: 0.3ms | Allocations: 3835)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:56 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 2.8ms | Allocations: 693)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3060)
+Completed 200 OK in 12ms (Views: 9.1ms | ActiveRecord: 0.3ms | Allocations: 3849)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:56 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.5ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 2.2ms | Allocations: 678)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 3045)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.4ms | Allocations: 3833)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:56 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 684)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3050)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.5ms | Allocations: 3838)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:57 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 669)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 3036)
+Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 0.5ms | Allocations: 3825)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:57 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 4.0ms | Allocations: 684)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 3050)
+Completed 200 OK in 18ms (Views: 13.2ms | ActiveRecord: 0.7ms | Allocations: 3838)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:58 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.5ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 2.7ms | Allocations: 669)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 3035)
+Completed 200 OK in 16ms (Views: 11.6ms | ActiveRecord: 0.6ms | Allocations: 3823)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:58 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3062)
+Completed 200 OK in 11ms (Views: 7.0ms | ActiveRecord: 0.7ms | Allocations: 3850)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:58 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 690)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 3056)
+Completed 200 OK in 10ms (Views: 6.6ms | ActiveRecord: 0.5ms | Allocations: 3844)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:58 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 666)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3032)
+Completed 200 OK in 13ms (Views: 9.4ms | ActiveRecord: 0.5ms | Allocations: 3821)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:58 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 678)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3044)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.5ms | Allocations: 3832)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:59 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 684)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 3050)
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.4ms | Allocations: 3838)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:59 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 690)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3056)
+Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 0.6ms | Allocations: 3844)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:40:59 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.5ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 3.2ms | Allocations: 678)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3044)
+Completed 200 OK in 14ms (Views: 10.3ms | ActiveRecord: 0.6ms | Allocations: 3832)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:41:01 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.9ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.8ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 4.6ms | Allocations: 678)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 3044)
+Completed 200 OK in 24ms (Views: 17.3ms | ActiveRecord: 0.9ms | Allocations: 3832)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:41:04 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1067)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 3454)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.4ms | Allocations: 3762)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-22 17:41:52 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (1.0ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 1.8ms | Allocations: 312)
+  Rendered reservations/_reservation.html.erb (Duration: 0.8ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 12.2ms | Allocations: 1785)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 4691)
+Completed 200 OK in 29ms (Views: 26.5ms | ActiveRecord: 1.0ms | Allocations: 5829)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-22 17:41:53 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1073)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 3463)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.7ms | Allocations: 3792)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:42:30 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 3.0ms | Allocations: 870)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 3249)
+Completed 200 OK in 18ms (Views: 12.3ms | ActiveRecord: 0.6ms | Allocations: 4142)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:44:15 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (1.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 1.4ms | Allocations: 310)
+  Rendered reservations/_reservation.html.erb (Duration: 2.7ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 26.0ms | Allocations: 1774)
+  Rendered layout layouts/application.html.erb (Duration: 37.7ms | Allocations: 4665)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 1.2ms | Allocations: 5802)
+
+
+Started GET "/reservations/1" for 127.0.0.1 at 2022-09-22 17:44:16 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 6.0ms | Allocations: 870)
+  Rendered layout layouts/application.html.erb (Duration: 27.7ms | Allocations: 3236)
+Completed 200 OK in 38ms (Views: 33.2ms | ActiveRecord: 0.6ms | Allocations: 4148)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 17:44:18 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1079)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 3466)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.5ms | Allocations: 3774)
+
+
+Started GET "/" for ::1 at 2022-09-22 17:46:34 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 1.1ms | Allocations: 471)
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 30.3ms | Allocations: 17480)
+  Rendered layout layouts/application.html.erb (Duration: 78.3ms | Allocations: 38515)
+Completed 200 OK in 92ms (Views: 76.4ms | ActiveRecord: 5.5ms | Allocations: 45171)
+
+
+Started GET "/" for ::1 at 2022-09-22 17:46:35 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.7ms | Allocations: 114)
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 1214)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 3629)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.6ms | Allocations: 4007)
+
+
+Started GET "/" for ::1 at 2022-09-22 17:46:36 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.7ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 996)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 3384)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.8ms | Allocations: 3698)
+
+
+Started GET "/" for ::1 at 2022-09-22 17:46:36 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 998)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3385)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.7ms | Allocations: 3691)
+
+
+Started GET "/" for ::1 at 2022-09-22 17:46:37 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1001)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3388)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.6ms | Allocations: 3694)
+
+
+Started GET "/" for ::1 at 2022-09-22 17:46:37 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1004)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 3391)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.5ms | Allocations: 3697)
+
+
+Started GET "/" for ::1 at 2022-09-22 17:46:37 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.5ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1002)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 3389)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.6ms | Allocations: 3695)
+
+
+Started GET "/" for ::1 at 2022-09-22 17:48:57 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.7ms | Allocations: 467)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 24.8ms | Allocations: 17643)
+  Rendered layout layouts/application.html.erb (Duration: 65.2ms | Allocations: 39367)
+Completed 200 OK in 75ms (Views: 61.9ms | ActiveRecord: 5.8ms | Allocations: 46023)
+
+
+Started GET "/" for ::1 at 2022-09-22 17:48:57 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 114)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 15.2ms | Allocations: 1173)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 3681)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.4ms | Allocations: 4049)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-22 18:45:25 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/dell/.rvm/gems/ruby-3.0.4/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/dell/.rvm/gems/ruby-3.0.4/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.9ms | Allocations: 727)
+Completed 200 OK in 32ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 6423)
+
+
+Started GET "/" for ::1 at 2022-09-22 18:48:49 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/dell/.rvm/gems/ruby-3.0.4/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/dell/.rvm/gems/ruby-3.0.4/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.7ms | Allocations: 727)
+Completed 200 OK in 19ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 6423)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:48:59 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/reservations"):
+  
+Started GET "/" for 127.0.0.1 at 2022-09-22 18:49:07 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/dell/.rvm/gems/ruby-3.0.4/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/dell/.rvm/gems/ruby-3.0.4/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.1ms | Allocations: 388)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1311)
+
+
+Started GET "/" for ::1 at 2022-09-22 18:55:33 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.9ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.8ms | Allocations: 467)
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 28.9ms | Allocations: 17693)
+  Rendered layout layouts/application.html.erb (Duration: 77.6ms | Allocations: 39411)
+Completed 200 OK in 89ms (Views: 74.8ms | ActiveRecord: 5.5ms | Allocations: 46086)
+
+
+Started GET "/reservations/1" for ::1 at 2022-09-22 18:58:16 -0300
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/show.html.erb within layouts/application
+  Rendered reservations/_reservation.html.erb (Duration: 0.6ms | Allocations: 116)
+  Rendered reservations/show.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1075)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3540)
+Completed 200 OK in 40ms (Views: 14.0ms | ActiveRecord: 2.0ms | Allocations: 9516)
+
+
+Started GET "/reservations/1/edit" for ::1 at 2022-09-22 18:58:18 -0300
+Processing by ReservationsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/edit.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 17.1ms | Allocations: 3163)
+  Rendered reservations/edit.html.erb within layouts/application (Duration: 19.1ms | Allocations: 3544)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 6011)
+Completed 200 OK in 30ms (Views: 24.1ms | ActiveRecord: 0.6ms | Allocations: 6903)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:28 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 72)
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1167)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 3573)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.4ms | Allocations: 3931)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:29 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1064)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 3451)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.5ms | Allocations: 3757)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:29 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1073)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 3460)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.8ms | Allocations: 3766)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:29 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.5ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.5ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1070)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 3457)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.5ms | Allocations: 3763)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:29 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1073)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 3460)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.7ms | Allocations: 3766)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:30 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1073)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 3460)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.3ms | Allocations: 3766)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:30 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1082)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 3469)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.6ms | Allocations: 3775)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:30 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.7ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.6ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1067)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 3454)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.4ms | Allocations: 3760)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:30 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (1.1ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.7ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1070)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 3457)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 1.1ms | Allocations: 3763)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:30 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.7ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.5ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1082)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 3469)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.4ms | Allocations: 3775)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:31 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.5ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1061)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 3448)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.4ms | Allocations: 3754)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:31 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1061)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3448)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.6ms | Allocations: 3754)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:31 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1079)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 3466)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.7ms | Allocations: 3772)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:31 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1079)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3466)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.4ms | Allocations: 3772)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:31 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1079)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 3466)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.5ms | Allocations: 3773)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:31 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1073)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3460)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.6ms | Allocations: 3766)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:32 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.9ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 1073)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 3460)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.8ms | Allocations: 3766)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:32 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.9ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1073)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3463)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.4ms | Allocations: 3769)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:32 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.5ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1067)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 3467)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.6ms | Allocations: 3773)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:32 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (1.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1070)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 3457)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 1.6ms | Allocations: 3763)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:32 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.6ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.6ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1061)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3448)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.4ms | Allocations: 3755)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:32 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.6ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1073)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 3460)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.5ms | Allocations: 3766)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:33 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1052)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 3439)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.4ms | Allocations: 3745)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:33 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1067)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 3454)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.8ms | Allocations: 3760)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:33 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1055)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 3442)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.3ms | Allocations: 3748)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:33 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1074)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 3477)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.6ms | Allocations: 3785)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:34 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.9ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.8ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1079)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3466)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.4ms | Allocations: 3772)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:34 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.6ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1073)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 3460)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.4ms | Allocations: 3766)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 18:59:34 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 1.9ms | Allocations: 898)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1172)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3547)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 3971)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:35 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (1.1ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1061)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 3448)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 1.1ms | Allocations: 3754)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 18:59:37 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 2.2ms | Allocations: 843)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 930)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 3304)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 3611)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:37 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (1.1ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1076)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 3463)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 1.1ms | Allocations: 3769)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 18:59:38 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 1.6ms | Allocations: 846)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 933)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3307)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 3614)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:39 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1116)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 3503)
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.8ms | Allocations: 3809)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 18:59:39 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 4.9ms | Allocations: 837)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 924)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 3298)
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 3605)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:40 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.9ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1073)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 3460)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.9ms | Allocations: 3766)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 18:59:40 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 3.6ms | Allocations: 852)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 939)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 3313)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 3620)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:41 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1064)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3451)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.5ms | Allocations: 3757)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 18:59:41 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 3.2ms | Allocations: 849)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 936)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3310)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 3617)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:42 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (5.1ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.9ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.9ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 13.5ms | Allocations: 1067)
+  Rendered layout layouts/application.html.erb (Duration: 25.9ms | Allocations: 3454)
+Completed 200 OK in 28ms (Views: 22.3ms | ActiveRecord: 5.1ms | Allocations: 3761)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 18:59:42 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 2.9ms | Allocations: 846)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 933)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 3307)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 3614)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:42 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.5ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 1067)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 3454)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.8ms | Allocations: 3760)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 18:59:43 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 2.4ms | Allocations: 861)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 948)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 3325)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 3632)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:43 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.5ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 1070)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 3470)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.7ms | Allocations: 3776)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 18:59:44 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 2.5ms | Allocations: 864)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 951)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3325)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 3632)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:45 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1103)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 3490)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.8ms | Allocations: 3797)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 18:59:46 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 2.2ms | Allocations: 843)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 930)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 3304)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 3611)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 18:59:48 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (1.0ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.6ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1070)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3457)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 1.0ms | Allocations: 3763)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 18:59:49 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 5.2ms | Allocations: 840)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 927)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 3301)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 3608)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 18:59:52 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 2.5ms | Allocations: 852)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 939)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 3315)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 3623)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 18:59:53 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 1.9ms | Allocations: 837)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 924)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 3314)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 3623)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 18:59:53 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 1.4ms | Allocations: 840)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 927)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 3301)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 3608)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 18:59:53 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 1.7ms | Allocations: 846)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 933)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 3307)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 3614)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 18:59:53 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 1.9ms | Allocations: 855)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 942)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3316)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 3623)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 19:00:18 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.7ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1065)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3452)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.7ms | Allocations: 3758)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 19:00:19 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 7.0ms | Allocations: 846)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 933)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 3307)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 3614)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 19:00:20 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1073)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 3460)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.6ms | Allocations: 3766)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 19:00:20 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.5ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 1067)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 3454)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.3ms | Allocations: 3760)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 19:00:20 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1067)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3454)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.3ms | Allocations: 3760)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 19:00:20 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 1073)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 3460)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.4ms | Allocations: 3766)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 19:00:21 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 3.4ms | Allocations: 852)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 939)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 3313)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 3623)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 19:00:22 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.5ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 1073)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 3460)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.4ms | Allocations: 3766)
+
+
+Started GET "/reservations/new" for ::1 at 2022-09-22 19:00:23 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 1.5ms | Allocations: 849)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 936)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 3310)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 3617)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-22 19:35:42 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.9ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 2.0ms | Allocations: 467)
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 36.0ms | Allocations: 17684)
+  Rendered layout layouts/application.html.erb (Duration: 126.9ms | Allocations: 38900)
+Completed 200 OK in 149ms (Views: 124.5ms | ActiveRecord: 6.6ms | Allocations: 45555)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 19:35:51 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 12.8ms | Allocations: 3134)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 14.9ms | Allocations: 3481)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 5973)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.0ms | Allocations: 6480)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 19:35:53 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 2.5ms | Allocations: 881)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 972)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 3348)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 3709)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 19:35:53 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.6ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 85)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1162)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3550)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.6ms | Allocations: 3866)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 19:35:54 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 2.5ms | Allocations: 855)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 942)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 3317)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 3632)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 19:35:54 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 5.8ms | Allocations: 831)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 918)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 3292)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 3599)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 19:35:54 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 4.1ms | Allocations: 858)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 945)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 3319)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 3626)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 19:35:54 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 2.9ms | Allocations: 840)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 927)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 3301)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 3608)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 19:35:55 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1080)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3467)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.3ms | Allocations: 3773)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 19:35:55 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 5.8ms | Allocations: 849)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 6.4ms | Allocations: 936)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 3310)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms | Allocations: 3617)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 19:38:40 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 8.5ms | Allocations: 1391)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 14.5ms | Allocations: 1726)
+  Rendered layout layouts/application.html.erb (Duration: 27.4ms | Allocations: 4634)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.0ms | Allocations: 5778)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 19:38:50 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 5.6ms | Allocations: 849)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 6.8ms | Allocations: 936)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 3329)
+Completed 200 OK in 18ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 3661)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 19:49:23 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 6.0ms | Allocations: 1425)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 7.7ms | Allocations: 1761)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 4673)
+Completed 200 OK in 84ms (Views: 22.3ms | ActiveRecord: 10.5ms | Allocations: 10808)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 19:49:34 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 28.5ms | Allocations: 3447)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 31.6ms | Allocations: 4183)
+  Rendered layout layouts/application.html.erb (Duration: 167.2ms | Allocations: 25589)
+Completed 200 OK in 228ms (Views: 177.5ms | ActiveRecord: 8.1ms | Allocations: 47031)
+
+
+Started GET "/landings/about" for 127.0.0.1 at 2022-09-22 19:49:40 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/landings/about"):
+  
+Started GET "/about" for 127.0.0.1 at 2022-09-22 19:49:44 -0300
+Processing by LandingsController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering landings/about.html.erb within layouts/application
+  Rendered landings/about.html.erb within layouts/application (Duration: 3.2ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 26.0ms | Allocations: 3149)
+Completed 200 OK in 32ms (Views: 29.3ms | ActiveRecord: 0.0ms | Allocations: 4192)
+
+
+Started GET "/reservations" for 127.0.0.1 at 2022-09-22 19:50:08 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 1.4ms | Allocations: 354)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 27.7ms | Allocations: 5846)
+  Rendered layout layouts/application.html.erb (Duration: 34.4ms | Allocations: 8364)
+Completed 200 OK in 39ms (Views: 35.4ms | ActiveRecord: 0.8ms | Allocations: 8866)
+
+
+Started GET "/reservations/new" for 127.0.0.1 at 2022-09-22 19:50:11 -0300
+Processing by ReservationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/new.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 3.6ms | Allocations: 965)
+  Rendered reservations/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1053)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 3448)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 3804)
+
+
+Started GET "/reservations/1/edit" for ::1 at 2022-09-22 19:51:39 -0300
+Processing by ReservationsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/edit.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 2.1ms | Allocations: 1208)
+  Rendered reservations/edit.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1551)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 4112)
+Completed 200 OK in 37ms (Views: 21.2ms | ActiveRecord: 5.2ms | Allocations: 9926)
+
+
+Started GET "/reservations/1/edit" for ::1 at 2022-09-22 19:52:21 -0300
+Processing by ReservationsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.5ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations" WHERE "reservations"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reservations_controller.rb:63:in `set_reservation'
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/edit.html.erb within layouts/application
+  Rendered reservations/_form.html.erb (Duration: 2.9ms | Allocations: 903)
+  Rendered reservations/edit.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1026)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 3426)
+Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 0.5ms | Allocations: 4313)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 19:52:40 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.9ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 78)
+  Rendered reservations/_reservation.html.erb (Duration: 0.3ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 1211)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 3630)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.9ms | Allocations: 3945)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 21:55:01 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (3.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 1.5ms | Allocations: 467)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 38.2ms | Allocations: 17693)
+  Rendered layout layouts/application.html.erb (Duration: 107.6ms | Allocations: 41182)
+Completed 200 OK in 128ms (Views: 100.4ms | ActiveRecord: 14.1ms | Allocations: 47851)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 21:55:03 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.4ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.4ms | Allocations: 114)
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1254)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3777)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.4ms | Allocations: 4155)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 21:55:03 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1089)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 3496)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.3ms | Allocations: 3810)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 21:55:03 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.3ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1082)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3488)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.3ms | Allocations: 3794)
+
+
+Started GET "/reservations" for ::1 at 2022-09-22 21:55:04 -0300
+Processing by ReservationsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering reservations/index.html.erb within layouts/application
+  [1m[36mReservation Load (0.8ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  ↳ app/views/reservations/index.html.erb:6
+  Rendered reservations/_reservation.html.erb (Duration: 0.5ms | Allocations: 69)
+  Rendered reservations/_reservation.html.erb (Duration: 0.5ms | Allocations: 53)
+  Rendered reservations/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1070)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3476)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.8ms | Allocations: 3782)
+
+
