@@ -20,7 +20,7 @@ gem "jsbundling-rails"
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 # gem "turbo-rails"
-gem "turbo-rails", '~> 1.0.0'
+gem "turbo-rails", '~> 1.3.0'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
@@ -32,7 +32,7 @@ gem "cssbundling-rails"
 gem "jbuilder"
 
 # Use Redis adapter to run Action Cable in production
-# gem "redis", "~> 4.0"
+gem "redis", "~> 4.0"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
@@ -41,8 +41,8 @@ gem "jbuilder"
 # gem "bcrypt", "~> 3.1.7"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+# gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
-
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
